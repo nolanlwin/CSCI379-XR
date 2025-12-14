@@ -4,6 +4,27 @@
 
 This Unity XR project represents my exploration into developing a multiplayer first-person shooter experience with extended reality capabilities. The project integrates Photon Fusion for networked gameplay, Unity's XR Interaction Toolkit, and various gameplay systems including weapons, player health, and UI management.
 
+## Setup Instructions
+
+### Required: Photon Fusion App ID
+
+Before running this project, you must configure your Photon Fusion App ID:
+
+1. **Create a Photon Account**: Sign up at https://dashboard.photonengine.com/
+2. **Create a Fusion 2 Application**: 
+   - Log into the Photon Dashboard
+   - Click "Create a New App"
+   - Select "Fusion" as the product type
+   - Choose **"Fusion 2"** (not Fusion 1)
+   - Enter an app name and create the application
+3. **Copy Your App ID**: The App ID will be displayed (format: `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`)
+4. **Add App ID to Project**:
+   - Open Unity and navigate to `Tools > Fusion > Fusion Hub`
+   - Paste your App ID into the "Fusion App Id" field
+   - Alternatively, you can manually edit `Assets/Photon/Fusion/Resources/PhotonAppSettings.asset` and set the `AppIdFusion` field
+
+**Note**: Without a valid Fusion App ID, the project will fail to connect to Photon's networking services and you'll see an error: `[Fusion] GetRegions failed. Can't provide regions list. ReturnCode: -2: Empty application id`
+
 ### Key Features
 
 - **Multiplayer Deathmatch**: Real-time networked gameplay using Photon Fusion

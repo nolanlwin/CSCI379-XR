@@ -43,8 +43,8 @@ One of the main challenges was ensuring smooth network synchronization while mai
 
 ### Demo Video
 
-[Video Link Placeholder - Insert your demo video URL here]
+[Watch the demo](https://drive.google.com/file/d/1B_gxBZX7klnZa12aDEkKEcfaXsMTMq1K/view?usp=drive_link)
 
 ---
 
-*This project was developed as part of CSCI379 - Extended Reality course at Bucknell University.*
+*This project was developed as part of CSCI379 - Design & Development for Extended Reality course at Bucknell University.*
